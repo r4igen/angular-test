@@ -1,0 +1,6 @@
+<p>Lima, Perú {{ hoy | date:'d/M/y H:mm' }}</p>
+<p>{{ ciudad | uppercase }}, {{ hoy | date:'d/M/y' }} a las {{ hoy | date:'HH:mm Z' }} </p>
+<p>El resultado es {{ resultado | number:'2.2-2' }}</p>
+<p>La cotización actual del dólar es de {{ dolareuro | currency:'EUR':true }}</p>
+<p>{{ sexo | i18nSelect: encabezamiento }} {{ nombre }} </p>
+<p>La cotización actual del dólar es de {{ dolareuro | euro }}</p>
