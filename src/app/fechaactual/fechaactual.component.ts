@@ -16,8 +16,8 @@ export class FechaactualComponent implements OnInit {
   ciudad = 'Perú';
   resultado = 1.148;
   dolareuro = 0.94;
-  nombre = 'Laura';
-  sexo = 'mujer';
+  nombre = 'Luis';
+  sexo = 'hombre';
   encabezamiento = { hombre: 'Estimado', mujer: 'Estimada'};
 
   constructor() { }
