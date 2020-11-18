@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class FechaactualComponent implements OnInit {
-
+  // Variables
   hoy = new Date();
   ciudad = 'Perú';
   resultado = 1.148;
